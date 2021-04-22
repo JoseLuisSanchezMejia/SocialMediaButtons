@@ -1,0 +1,202 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  clear: both;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #c3cfe2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  height: 1000px;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0px;
+  padding-right: 0px;
+}
+
+li {
+  list-style: none;
+  margin-top: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  display: inline-block;
+  width: 150px;
+  height: 19px;
+}
+a.smedia__icon:hover ~ span {
+  transition-delay: 23.3ms;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  transform: scale(1);
+}
+a.smedia__icon:hover {
+  transform: translateX(-112px);
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.55, 0.06, 0.68, 0.19);
+}
+
+.smedia__icon::before {
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  color: white;
+  font-size: 12px;
+}
+.smedia__icon--blog {
+  position: absolute;
+  right: -121px;
+  z-index: 10000;
+}
+.smedia__icon--blog::before {
+  display: inline-block;
+  content: "";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  background-color: #e17b77;
+  padding-top: 7px;
+  padding-bottom: 4.5px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+.smedia__icon--twitter {
+  position: absolute;
+  right: -122px;
+  z-index: 10000;
+}
+.smedia__icon--twitter::before {
+  display: inline-block;
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  background-color: #00aced;
+  padding-top: 7px;
+  padding-right: 9px;
+  padding-left: 9px;
+  padding-bottom: 5.75px;
+}
+.smedia__icon--linkedin {
+  position: absolute;
+  right: -122px;
+  z-index: 10000;
+}
+.smedia__icon--linkedin::before {
+  display: inline-block;
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  background-color: #007bb6;
+  padding-top: 7px;
+  padding-bottom: 5.5px;
+  padding-right: 9px;
+  padding-left: 9px;
+  margin-left: 0px;
+}
+.smedia__icon--facebook {
+  position: absolute;
+  right: -122px;
+  z-index: 10000;
+}
+.smedia__icon--facebook::before {
+  display: inline-block;
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  background-color: #3b5998;
+  margin: 0px;
+  padding-top: 7px;
+  padding-bottom: 6.7699996949px;
+  padding-right: 10.5px;
+  padding-left: 10px;
+}
+.smedia__icon--github {
+  position: absolute;
+  right: -122px;
+  z-index: 10000;
+}
+.smedia__icon--github::before {
+  display: inline-block;
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  background-color: #333;
+  margin: 0px;
+  padding-top: 7px;
+  padding-bottom: 6.25px;
+  padding-right: 9.5px;
+  padding-left: 6.75px;
+}
+
+.smedia__textlink1 {
+  color: white;
+  background-color: #e17b77;
+  font-size: 75.5%;
+  font-family: georgia;
+  transform: scale(0);
+  margin-right: 0px;
+  padding-top: 1.5px;
+  padding-bottom: 9.25px;
+  padding-right: 3px;
+  padding-left: 9px;
+  text-decoration: underline;
+}
+.smedia__textlink2 {
+  color: white;
+  background-color: #00aced;
+  font-size: 71.5%;
+  font-family: georgia;
+  padding-top: 1.5px;
+  padding-bottom: 11.25px;
+  padding-right: 3px;
+  padding-left: 0px;
+  margin: 0px;
+  transform: scale(0);
+  text-decoration: underline;
+}
+.smedia__textlink3 {
+  color: white;
+  background-color: #007bb6;
+  font-size: 72.5%;
+  font-family: georgia;
+  text-decoration: underline;
+  padding-top: 1.5px;
+  padding-bottom: 10.95px;
+  padding-right: 3px;
+  padding-left: 6px;
+  margin-left: -5px;
+  transform: scale(0);
+}
+.smedia__textlink4 {
+  color: white;
+  background-color: #3b5998;
+  font-size: 65.5%;
+  font-family: georgia;
+  text-decoration: underline;
+  padding-top: 1.5px;
+  padding-bottom: 13px;
+  padding-right: 4px;
+  padding-left: 2.25px;
+  transform: scale(0);
+}
+.smedia__textlink5 {
+  color: white;
+  text-decoration: underline;
+  background-color: #333;
+  font-size: 70%;
+  font-family: georgia;
+  padding-top: 1.5px;
+  padding-bottom: 11.5px;
+  padding-right: 0px;
+  padding-left: 0px;
+  transform: scale(0);
+  margin-right: 0px;
+}/*# sourceMappingURL=stylesheet.css.map */
